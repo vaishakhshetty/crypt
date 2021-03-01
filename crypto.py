@@ -104,15 +104,3 @@ validation_x, validation_y = preprocess_df(validation_main_df)
 print(f"train data: {len(train_x)} validation: {len(validation_x)}")
 print(f"Dont buys: {train_y.count(0)}, buys: {train_y.count(1)}")
 print(f"VALIDATION Dont buys: {validation_y.count(0)}, buys: {validation_y.count(1)}")
-
-      
-
-
-
-
- 
-
-
-
-
-
